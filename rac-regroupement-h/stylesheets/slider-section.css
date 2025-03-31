@@ -1,0 +1,33 @@
+ul.container-slider {
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 960px;
+    margin: 20px auto 20px auto;
+  }
+  
+  ul.container-slider li {
+    display: none;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  
+  ul.container-slider .active {
+    display: block;
+  }
+  
+  .button-container button {
+   color: #fff;
+   font-size: 14px;
+   padding: 8px 40px;
+   border: none;
+   background-color: black;
+   margin: 0 3px;
+   border-radius: 5px;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  

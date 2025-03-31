@@ -1,0 +1,8 @@
+nav, .socials-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-icons {
+    display: flex;
+}

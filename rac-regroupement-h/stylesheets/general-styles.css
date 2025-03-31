@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+i {
+    color: #000;
+    font-size: 20px;
+}
+
+img { 
+    max-width: 100%;
+    height: auto;
+}
+
+.centered {
+    text-align: center;
+}
+
+.black--text {
+    color: rgb(0, 0, 0);
+}
+
+.white--text {
+    color :white;
+}
+
+.gray--text {
+    color: #888;
+
+}
+
+.bigger-text {
+    font-size: 18px;
+}
+
+.gray--background {
+    background-color: #cebebe60;
+}
+
+.pink--background {
+    background-color: #E2B6C2;
+}
+
+.black--background {
+    background-color: #000;
+}
+
+.green--background {
+    background-color: #E8EFE6;
+}
+
+.white--background {
+    background-color: white;
+}
+
+.blue--background {
+    background-color: #89CFF0;
+}
+
+.smaller--text {
+    font-size: 12px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bigger-container {
+    padding: 20px 60px;
+}
+
+.container {
+    padding: 13px 15px;
+}
+
+.smaller-container {
+    padding: 7px 10px;
+}
+
+.gutter-desktop {
+    margin: 10px 150px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    flex: 0 1 24%;
+    border-color: rgba(0,0,0,.03);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-smaller {
+    max-width: 50%;
+}
+
+.btn-responsive {
+    max-width: 25%;
+}
+
+@media (max-width: 964px) {
+    .cards { 
+        display: block;
+        padding: 25px;
+    }
+
+    .card { 
+        margin-bottom: 25px;
+    }
+
+    .gutter-desktop {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn-responsive {
+        max-width: 50%;
+    }
+}
+

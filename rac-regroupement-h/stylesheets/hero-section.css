@@ -1,0 +1,18 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (max-width: 700px) {
+    .text-section { 
+        background-image: url('../img/car-hero-responsive.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 50%;
+    }
+
+    .img-section { 
+        display: none;
+    }
+}

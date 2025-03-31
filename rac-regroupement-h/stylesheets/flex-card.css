@@ -1,0 +1,31 @@
+.card-header {
+    background-color: rgba(0,0,0,.03);
+    background-color: rgb(198, 236, 186);
+    padding: 10px 15px;
+}
+
+.protection-name {
+    font-size: 25px;
+    margin: 0;
+}
+
+.card-bottom {
+    padding: 0 20px 20px 20px;
+}
+
+.protection-specifics {
+    line-height: 25px;
+}
+
+.price {
+    font-size: 23px;
+}
+
+
+@media (max-width: 964px) {
+    .card-bottom {
+        padding: 10px 50px 0 50px;
+        margin-bottom: 10px;
+    }
+
+}
